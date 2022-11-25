@@ -1,0 +1,7 @@
+.search__input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  display: flex;
+}

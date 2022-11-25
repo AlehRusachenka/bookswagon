@@ -1,0 +1,13 @@
+.cart__block {
+  position: relative;
+}
+
+.cartBlock__icon {
+  color: var(--text-color);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.cartBlock__icon:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,8 @@
+.order_page_title {
+  padding: 100px 0px;
+  color: var(--primary-color);
+}
+
+.order_page {
+  background-color: var(--primary-color);
+}

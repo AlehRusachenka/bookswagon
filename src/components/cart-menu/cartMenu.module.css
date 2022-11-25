@@ -1,0 +1,21 @@
+.cart_menu {
+  position: absolute;
+  top: 30px;
+  left: -365px;
+  background-color: #773436;
+  width: 400px;
+  padding: 10px 20px;
+  z-index: 2;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 567px) {
+  .cart_menu {
+    width: 250px;
+    left: -222px;
+  }
+}
+
+.cart_menuBookList {
+  color: var(--primary-color);
+}

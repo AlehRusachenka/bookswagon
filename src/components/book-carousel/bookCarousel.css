@@ -1,0 +1,54 @@
+.carousel {
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel {
+    display: none;
+  }
+}
+
+.carousel__item {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.carousel__img {
+  border-radius: 10px;
+  width: 133px;
+  height: 203.05px;
+}
+
+.carousel__title {
+  color: var(--text-color);
+}
+
+.carousel__subtitle {
+  color: var(--text-color);
+}
+
+.carousel-indicators {
+  color: var(--text-color);
+}
+
+.carousel-control-next-icon {
+  background-color: var(--text-color);
+  border-radius: 30%;
+}
+
+.carousel-control-prev-icon {
+  background-color: var(--text-color);
+  border-radius: 30%;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel-control-next {
+  width: 45%;
+}
+.carousel-control-prev {
+  width: 45%;
+}

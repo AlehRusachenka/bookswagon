@@ -1,0 +1,46 @@
+.subscribe__container {
+  background: var(--primary-color);
+  height: 202px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .subscribe__container {
+    margin-bottom: 30px;
+  }
+}
+
+.subscribe__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.subscribe__img {
+  margin-right: 10px;
+}
+
+.subscribe__text {
+  padding-top: 10px;
+  color: var(--text-color);
+}
+
+.subsribe__form {
+  padding: 10px 20px;
+}
+
+.subscribe__input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid var(--text-color);
+}
+
+.modal__title {
+  color: var(--text-color);
+}
+
+.modal__body {
+  color: var(--text-color);
+}

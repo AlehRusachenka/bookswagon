@@ -1,0 +1,35 @@
+.order__item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 20px; */
+  padding: 20px 0px;
+  border-bottom: 2px solid var(--text-color);
+}
+
+.order__item_img {
+  width: 180px;
+  height: 280px;
+  margin-right: 20px;
+}
+
+.order__item_title {
+  color: var(--text-color);
+  margin-right: 20px;
+}
+
+.order__item_delet_icon {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.text__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 560px) {
+  .book__cover {
+    margin-bottom: 20px;
+  }
+}

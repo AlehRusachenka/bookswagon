@@ -1,0 +1,23 @@
+.bookItem {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card__title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  height: 2.5em;
+  color: var(--text-color);
+}
+
+.item__link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.item__link:hover {
+  color: var(--accent-color);
+}
