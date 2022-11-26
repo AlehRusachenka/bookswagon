@@ -8,10 +8,6 @@ const BookCover = ({ formats }) => {
         alt="bookcover"
         className={styles.bookCover}
       />
-      {/* <div
-        className={styles.bookCover}
-        style={{ backgroundImage: `url(${formats["image/jpeg"]})` }}
-      ></div> */}
     </>
   );
 };

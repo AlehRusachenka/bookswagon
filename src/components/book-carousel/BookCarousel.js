@@ -5,7 +5,7 @@ import pic3 from "../images/carousel/pic3.png";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./bookCarousel.css";
-// fade
+
 const BookCarousel = () => {
   return (
     <div className="carousel">
