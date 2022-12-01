@@ -1,0 +1,14 @@
+.login {
+  padding: 100px 0px;
+  background-color: var(--primary-color);
+}
+
+.login__link {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.login__link:hover {
+  color: var(--text-color);
+  opacity: 0.7;
+}

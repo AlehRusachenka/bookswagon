@@ -2,7 +2,7 @@ import { useState } from "react";
 import Button from "../button/Button";
 import Modal from "react-bootstrap/Modal";
 
-import emailImg from "../images/subscribe/email.png";
+import emailImg from "../../images/subscribe/email.png";
 
 import styles from "./bookSubscribe.module.css";
 

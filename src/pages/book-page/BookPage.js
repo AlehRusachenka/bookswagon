@@ -2,9 +2,9 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import axios from "axios";
-import Button from "../../button/Button";
-import BookGenre from "../../book-genre/BookGenre";
-import BookRating from "../../book-rating/BookRating";
+import Button from "../../components/button/Button";
+import BookGenre from "../../components/book-genre/BookGenre";
+import BookRating from "../../components/book-rating/BookRating";
 
 import styles from "./bookPage.module.css";
 

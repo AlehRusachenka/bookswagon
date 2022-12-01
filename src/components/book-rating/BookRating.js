@@ -1,5 +1,5 @@
 import BookRatingStar from "../book-rating-star/BookRatingStar";
-import useStarRating from "../hooks/useStarRating";
+import useStarRating from "../../hooks/useStarRating";
 
 const starsArray = (length) => [...Array(length)];
 

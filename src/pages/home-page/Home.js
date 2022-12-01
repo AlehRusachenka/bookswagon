@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchBooks } from "../../../services/books";
+import { fetchBooks } from "../../services/books";
 
-import BookCarousel from "../../book-carousel/BookCarousel";
-import BooksList from "../../books-list/BooksList";
-import BooksSearch from "../../book-search/BooksSearch";
+import BookCarousel from "../../components/book-carousel/BookCarousel";
+import BooksList from "../../components/books-list/BooksList";
+import BooksSearch from "../../components/book-search/BooksSearch";
 
 import styles from "./home.module.css";
-import BookSubscribe from "../../book-subscribe/BookSubscribe";
+import BookSubscribe from "../../components/book-subscribe/BookSubscribe";
 
 const Home = () => {
   const dispatch = useDispatch();

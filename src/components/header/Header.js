@@ -39,7 +39,9 @@ const Header = () => {
               <Link to="/bookswagon/order" className="header__home_link">
                 <div className="header__text">My orders</div>
               </Link>
-              <div className="header__text">Sign in/ Sign up</div>
+              <Link to="/bookswagon/login" className="header__home_link">
+                <div className="header__text">Sign in/Sign up</div>
+              </Link>
             </div>
             <div className="header__cartBtnContainer">
               <CartBlock />

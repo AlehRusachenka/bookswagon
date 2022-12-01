@@ -28,6 +28,12 @@
   margin-right: 24px;
 }
 
+@media screen and (max-width: 560px) {
+  .header__home_link {
+    margin-bottom: 10px;
+  }
+}
+
 .header__home_link:hover {
   text-decoration: underline var(--text-color);
 }

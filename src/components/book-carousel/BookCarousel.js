@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
-import pic1 from "../images/carousel/pic1.png";
-import pic2 from "../images/carousel/pic2.png";
-import pic3 from "../images/carousel/pic3.png";
+import pic1 from "../../images/carousel/pic1.png";
+import pic2 from "../../images/carousel/pic2.png";
+import pic3 from "../../images/carousel/pic3.png";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./bookCarousel.css";

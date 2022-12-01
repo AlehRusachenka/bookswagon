@@ -6,11 +6,14 @@ import store from "../redux/store";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Header from "./header/Header";
-import Home from "./pages/home-page/Home";
-import BookPage from "./pages/book-page/BookPage";
-import OrderPage from "./pages/order-page/OrderPage";
+import Home from "../pages/home-page/Home";
+import BookPage from "../pages/book-page/BookPage";
+import OrderPage from "../pages/order-page/OrderPage";
 import Footer from "./footer/Footer";
 import Theme from "./main-theme/Theme";
+import AccountPage from "../pages/account-page/AccountPage";
+import LoginPage from "../pages/login-page/LoginPage";
+import RegistrePage from "../pages/registre-page/RegistrePage";
 
 const BooksApp = () => {
   return (
@@ -22,6 +25,9 @@ const BooksApp = () => {
           <Route path="/bookswagon" element={<Home />} />
           <Route path="bookswagon/:id" element={<BookPage />} />
           <Route path="bookswagon/order" element={<OrderPage />} />
+          <Route path="/account" element={<AccountPage />} />
+          <Route path="bookswagon/login" element={<LoginPage />} />
+          <Route path="bookswagon/registre" element={<RegistrePage />} />
         </Routes>
         <Footer />
       </Provider>

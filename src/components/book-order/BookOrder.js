@@ -3,7 +3,7 @@ import { setItemInCart, deleteItemFromCart } from "../../redux/cart/reducer";
 import Button from "../button/Button";
 import styles from "./bookOrder.module.css";
 
-const BookOrder = ({ book }) => {
+const BookOrder = ({ book, bookPrice }) => {
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.itemsInCart);
   const isItemInCart = items.some((item) => item.id === book.id);
@@ -19,6 +19,7 @@ const BookOrder = ({ book }) => {
 
   return (
     <div className={styles.book_order}>
+      {/* <span>{price()}$</span> */}
       <Button
         onClick={handleClick}
         type={isItemInCart ? "secondary" : "primary"}

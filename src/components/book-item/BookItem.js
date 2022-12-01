@@ -7,6 +7,11 @@ import BookOrder from "../book-order/BookOrder";
 import styles from "./bookItem.module.css";
 
 const BookItem = ({ id, title, formats, book }) => {
+  let max = 100;
+  let min = 10;
+  let getPrice = () => Math.floor(Math.random() * (max - min + 1)) + min;
+  let bookPrice = getPrice();
+
   return (
     <Col
       lg={3}
@@ -23,7 +28,10 @@ const BookItem = ({ id, title, formats, book }) => {
         </Link>
         <Card.Body>
           <Card.Title className={styles.card__title}>{title}</Card.Title>
-          <BookOrder book={book} />
+          <Card.Text className={styles.card__price}>
+            Price: {bookPrice}$
+          </Card.Text>
+          <BookOrder book={book} bookPrice={bookPrice} />
         </Card.Body>
       </Card>
     </Col>
