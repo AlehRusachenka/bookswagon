@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bookswagon/static/css/main.edf90e71.css",
-    "main.js": "/bookswagon/static/js/main.6307f0c0.js",
+    "main.css": "/bookswagon/static/css/main.d19bf537.css",
+    "main.js": "/bookswagon/static/js/main.aad6a01e.js",
     "static/media/pic1.png": "/bookswagon/static/media/pic1.eecc1ef9ed1d951c9c8d.png",
     "static/media/pic2.png": "/bookswagon/static/media/pic2.6dead5d66e75157e1f68.png",
     "static/media/pic3.png": "/bookswagon/static/media/pic3.a978b80d3babd142c306.png",
     "index.html": "/bookswagon/index.html",
-    "main.edf90e71.css.map": "/bookswagon/static/css/main.edf90e71.css.map",
-    "main.6307f0c0.js.map": "/bookswagon/static/js/main.6307f0c0.js.map"
+    "main.d19bf537.css.map": "/bookswagon/static/css/main.d19bf537.css.map",
+    "main.aad6a01e.js.map": "/bookswagon/static/js/main.aad6a01e.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf90e71.css",
-    "static/js/main.6307f0c0.js"
+    "static/css/main.d19bf537.css",
+    "static/js/main.aad6a01e.js"
   ]
 }
