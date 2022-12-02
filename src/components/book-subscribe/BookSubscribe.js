@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "../button/Button";
+import Input from "../input/Input";
 import Modal from "react-bootstrap/Modal";
 
 import emailImg from "../../images/subscribe/email.png";
@@ -32,13 +33,12 @@ const BookSubscribe = () => {
           </p>
         </div>
         <form className={styles.subsribe__form} onSubmit={submitForm}>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Email"
+          <Input
+            id={"id"}
+            type={"email"}
+            name={"email"}
+            placeholder={"Email"}
             value={values.email}
-            className={styles.subscribe__input}
             onChange={handleChange}
           />
           <Button

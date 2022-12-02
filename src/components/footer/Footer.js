@@ -1,3 +1,4 @@
+import Socials from "../socials/Socials";
 import styles from "./footer.module.css";
 
 const Footer = () => {
@@ -74,6 +75,7 @@ const Footer = () => {
           <p className={styles.footer__copyright}>
             All rights are reserved &copy;
           </p>
+          <Socials />
         </div>
       </footer>
     </>

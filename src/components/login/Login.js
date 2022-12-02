@@ -21,7 +21,7 @@ const Login = () => {
             token: user.accessToken,
           })
         );
-        navigate("/bookswagon/order");
+        navigate("/bookswagon/account");
       })
       .catch(() =>
         alert(

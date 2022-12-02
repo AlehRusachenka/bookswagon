@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "../button/Button";
+import Input from "../input/Input";
 
 import styles from "./loginForm.module.css";
 
@@ -9,19 +10,17 @@ const LoginForm = ({ handleClick, title }) => {
 
   return (
     <div className={styles.login__form}>
-      <input
-        className={styles.login__input}
-        type="email"
+      <Input
+        type={"email"}
         value={email}
+        placeholder={"Email"}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email"
       />
-      <input
-        className={styles.login__input}
-        type="password"
+      <Input
+        type={"password"}
         value={password}
+        placeholder={"Password"}
         onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
       />
       <Button onClick={() => handleClick(email, password)}>{title}</Button>
     </div>

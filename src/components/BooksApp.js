@@ -25,7 +25,7 @@ const BooksApp = () => {
           <Route path="/bookswagon" element={<Home />} />
           <Route path="bookswagon/:id" element={<BookPage />} />
           <Route path="bookswagon/order" element={<OrderPage />} />
-          <Route path="/account" element={<AccountPage />} />
+          <Route path="bookswagon/account" element={<AccountPage />} />
           <Route path="bookswagon/login" element={<LoginPage />} />
           <Route path="bookswagon/registre" element={<RegistrePage />} />
         </Routes>

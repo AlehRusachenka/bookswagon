@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import CartBlock from "../cart-block/CartBlock";
 import { TfiHome } from "react-icons/tfi";
+import { VscAccount } from "react-icons/vsc";
 
 import "./header.css";
 
 const Header = () => {
   const [sticky, setSticky] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -22,6 +25,10 @@ const Header = () => {
   };
 
   const classes = `header ${sticky}`;
+
+  const handleClick = () => {
+    navigate("bookswagon/account");
+  };
 
   return (
     <>
@@ -44,6 +51,11 @@ const Header = () => {
               </Link>
             </div>
             <div className="header__cartBtnContainer">
+              <VscAccount
+                size={20}
+                className="header__accIcon"
+                onClick={handleClick}
+              />
               <CartBlock />
             </div>
           </div>

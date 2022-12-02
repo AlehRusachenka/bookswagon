@@ -21,7 +21,7 @@ const Registre = () => {
             token: user.accessToken,
           })
         );
-        navigate("/bookswagon");
+        navigate("/bookswagon/account");
       })
       .catch(() => console.log("Error: Something went wrong"));
   };

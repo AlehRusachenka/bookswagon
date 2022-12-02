@@ -5,6 +5,7 @@ import axios from "axios";
 import Button from "../../components/button/Button";
 import BookGenre from "../../components/book-genre/BookGenre";
 import BookRating from "../../components/book-rating/BookRating";
+import Socials from "../../components/socials/Socials";
 
 import styles from "./bookPage.module.css";
 
@@ -52,6 +53,7 @@ const BookPage = () => {
                 <Button children={"Back to Home"} onClick={backToHome} />
               </div>
             </div>
+            <Socials />
           </div>
         </div>
       )}

@@ -1,0 +1,16 @@
+.moreInfo__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.moreInfo__share {
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.moreInfo__img {
+  margin-right: 5px;
+}

@@ -78,3 +78,20 @@
   background-color: #d4d0bc;
   padding: 15px 0px;
 }
+
+.header__cartBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__accIcon {
+  margin-right: 25px;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.header__accIcon:hover {
+  transform: scale(1.5);
+}

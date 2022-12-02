@@ -3,12 +3,3 @@
   flex-direction: column;
   max-width: 300px;
 }
-
-.login__input {
-  width: 100%;
-  margin: 0px 10px 10px 0px;
-  width: 100%;
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid var(--text-color);
-}

@@ -1,8 +1,8 @@
-import styles from "./search.module.css";
-
 import { useDispatch } from "react-redux";
-
 import { searchReducer } from "../../redux/search/actions";
+import Input from "../input/Input";
+
+import styles from "./search.module.css";
 
 const BooksSearch = ({ bookList }) => {
   const dispatch = useDispatch();
@@ -11,6 +11,7 @@ const BooksSearch = ({ bookList }) => {
     let inputValue = e.target.value;
     if (bookList) {
       let coppyBookList = [...bookList];
+      inputValue = inputValue.trim();
       if (inputValue) {
         let filterBook = coppyBookList.filter((book) => {
           return book.title.toLowerCase().includes(inputValue.toLowerCase());
@@ -26,11 +27,10 @@ const BooksSearch = ({ bookList }) => {
   return (
     <>
       <div className={styles.search}>
-        <input
-          type="text"
-          placeholder="Search by title..."
-          name="search"
-          className={styles.search__input}
+        <Input
+          type={"text"}
+          name={"search"}
+          placeholder={"Search by title"}
           onChange={searchingBook}
         />
       </div>
