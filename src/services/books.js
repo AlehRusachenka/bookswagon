@@ -1,5 +1,5 @@
 import axios from "axios";
-import { showBooks } from "../redux/books/actions";
+import { showBooks, showOneBook } from "../redux/books/actions";
 
 export const fetchBooks = () => {
   return function (dispatch) {
@@ -9,3 +9,12 @@ export const fetchBooks = () => {
     });
   };
 };
+
+// export const fetchOneBook = (id) => {
+//   return function (dispatch) {
+//     axios.get(`https://gutendex.com/books/${id}`).then((response) => {
+//       const bookInfo = response.data;
+//       dispatch(showOneBook(bookInfo));
+//     });
+//   };
+// };

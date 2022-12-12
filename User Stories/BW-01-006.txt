@@ -1,0 +1,13 @@
+Title: Newsletter Subscription 
+
+User Story: 
+As a website user I want to subscribe to newsletters to get an email when a new offer is available.
+
+Acceptance criteria: 
+Given that I have entered my email and got confirmation pop-up window when click on "Sign Up" button.
+
+To Do: 
+Implement a subscription functionality with email input field and pop-up window when an email is entered and Sign Up button clicked.
+
+Note: 
+1) There is "Close" button so the visitor can close the pop-up notification window.

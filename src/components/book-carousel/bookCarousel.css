@@ -28,7 +28,7 @@
 }
 
 .carousel-indicators {
-  color: var(--text-color);
+  display: none;
 }
 
 .carousel-control-next-icon {

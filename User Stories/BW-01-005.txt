@@ -1,0 +1,15 @@
+Title: Adding to Cart
+
+User Story: 
+As a website user I want to add a liked book to the shopping cart.
+
+Acceptance criteria: 
+Given that I have added a book to the shopping cart when I click on "Add to Cart" button then the book is added to the cart and I am able
+to see the quantity of the added books near the cart icon.
+
+To Do: 
+Implement a funcionality of adding a books to the shopping cart. The number of added books should be reflected near the cart icon.
+
+Note:
+1) When the book is added to the cart, the "Add to Cart" button should be changed to "Remove from Cart" button.
+2) The added books should be saved in LocalStorage.

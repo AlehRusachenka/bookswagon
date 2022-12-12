@@ -1,0 +1,12 @@
+Title: Sign In / Sign Up
+
+User Story: 
+As a website visitor I want to login to my personal account (or registre a new one)to have an access to my order data, previously viewed products and etc.
+
+Acceptrance criteria:
+Given that I have visited Books Wagon website, I can login/sign up to my account when click on SignIn/SignUp link at the header of the website.
+Once I did this, I have been redirected to a separate login page where there is an opportunity to registre a new account by clicking on Registre 
+Account link.
+
+To Do:
+Add two new pages - Login and Registre. The pages should be available through the link at the header of website. 

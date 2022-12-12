@@ -1,0 +1,10 @@
+Title: One book page
+
+User Story: 
+As a website visitor I want to have a opportunity to open a chosen book on a separate page to view more information about the book.
+
+Acceptance criteria:
+Given that I have opened a book when I click on the book cover then a separate book page is opened.
+
+To Do:
+Implement a functionality so the book can be opened on a new window.

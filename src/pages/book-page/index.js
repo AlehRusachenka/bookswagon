@@ -1,15 +1,20 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+// import { useDispatch } from "react-redux";
+// import { fetchOneBook } from "../../services/books";
 
 import axios from "axios";
 import Button from "../../components/button/Button";
 import BookGenre from "../../components/book-genre/BookGenre";
 import BookRating from "../../components/book-rating/BookRating";
 import Socials from "../../components/socials/Socials";
+// import BookQuickRead from "../../components/book-quick-read/BookQuickRead";
+// import Accordion from "react-bootstrap/Accordion";
 
 import styles from "./bookPage.module.css";
 
 const BookPage = () => {
+  // const dispatch = useDispatch();
   const { id } = useParams();
   const [bookInfo, setBookInfo] = useState();
   let navigate = useNavigate();
@@ -17,6 +22,10 @@ const BookPage = () => {
   const backToHome = () => {
     navigate("/bookswagon");
   };
+
+  // useEffect(() => {
+  //   dispatch(fetchOneBook());
+  // }, [id]);
 
   useEffect(() => {
     axios.get(`https://gutendex.com/books/${id}`).then((response) => {

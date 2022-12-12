@@ -1,12 +1,12 @@
-// import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
-// export const useLogin = () => {
-//   const { email, token, id } = useSelector((state) => state.user);
+export const useLogin = () => {
+  const { email, token, id } = useSelector((state) => state.user);
 
-//   return {
-//     isLogin: !!email,
-//     email,
-//     token,
-//     id,
-//   };
-// };
+  return {
+    isLogin: !!email,
+    email,
+    token,
+    id,
+  };
+};

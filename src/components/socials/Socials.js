@@ -1,7 +1,7 @@
-import twitter from "../../images/socials/twitter.png";
-import watzp from "../../images/socials/watzp.png";
-import facebook from "../../images/socials/facebook.png";
-import mail from "../../images/socials/mail.png";
+import twitter from "./images/twitter.png";
+import watzp from "./images/watzp.png";
+import facebook from "./images/facebook.png";
+import mail from "./images/mail.png";
 
 import styles from "./socials.module.css";
 

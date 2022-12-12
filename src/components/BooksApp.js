@@ -6,14 +6,14 @@ import store from "../redux/store";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Header from "./header/Header";
-import Home from "../pages/home-page/Home";
-import BookPage from "../pages/book-page/BookPage";
-import OrderPage from "../pages/order-page/OrderPage";
+import Home from "../pages/home-page";
+import BookPage from "../pages/book-page";
+import OrderPage from "../pages/order-page";
 import Footer from "./footer/Footer";
 import Theme from "./main-theme/Theme";
-import AccountPage from "../pages/account-page/AccountPage";
-import LoginPage from "../pages/login-page/LoginPage";
-import RegistrePage from "../pages/registre-page/RegistrePage";
+import AccountPage from "../pages/account-page";
+import LoginPage from "../pages/login-page";
+import RegistrePage from "../pages/registre-page";
 
 const BooksApp = () => {
   return (

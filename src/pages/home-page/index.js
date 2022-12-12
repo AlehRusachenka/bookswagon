@@ -43,7 +43,6 @@ const Home = () => {
           <div className={styles.home__list}>
             <BooksList books={searchBook ? searchBook : books} />
           </div>
-          <div className={styles.home__btnContainer}></div>
         </div>
       </div>
     </>

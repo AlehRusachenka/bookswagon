@@ -1,0 +1,14 @@
+Title: Dark theme mode
+
+User Story:
+As a website user I want to change a default color theme from light to dark and vise verse.
+
+Acceptance criteria:
+Given that I have change the website color theme when click on the toggle then the color theme has been changed.
+
+To Do: 
+Implement a dark/light theme mode functionality
+
+Note:
+1) The functionality should be implemented by using Redux.
+2) The changed color theme should be saved in LocalStorage.

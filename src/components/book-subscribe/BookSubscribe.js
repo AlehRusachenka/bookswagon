@@ -3,7 +3,7 @@ import Button from "../button/Button";
 import Input from "../input/Input";
 import Modal from "react-bootstrap/Modal";
 
-import emailImg from "../../images/subscribe/email.png";
+import emailImg from "./images/email.png";
 
 import styles from "./bookSubscribe.module.css";
 
@@ -11,15 +11,21 @@ const BookSubscribe = () => {
   const [values, setValues] = useState({ email: "" });
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    if (!setShow(false)) {
+      setValues({ email: "" });
+    }
+  };
+
   const handleShow = () => setShow(true);
+
   const handleChange = (e) => {
     setValues((values) => ({ ...values, email: e.target.value }));
   };
 
   const submitForm = (e) => {
     e.preventDefault();
-    e.target.reset();
+    console.log("submit");
   };
 
   return (

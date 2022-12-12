@@ -1,0 +1,13 @@
+Title: Sticky header
+
+User Story: 
+As a website user I want to see the header of the website when I scroll down the main page.
+
+Acceptance criteria: 
+Given that I still see the header when I scrolled down the page then the header is sticked to the top of the page.
+
+To Do:
+Implement a sticky header functionality.
+
+Note:
+1) The color of the header should be changed one we scroll down the page and added functionality starts working.

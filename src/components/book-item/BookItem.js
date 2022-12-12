@@ -6,11 +6,12 @@ import BookOrder from "../book-order/BookOrder";
 
 import styles from "./bookItem.module.css";
 
+const max = 100;
+const min = 10;
+
 const BookItem = ({ id, title, formats, book }) => {
-  let max = 100;
-  let min = 10;
   let getPrice = () => Math.floor(Math.random() * (max - min + 1)) + min;
-  let bookPrice = getPrice();
+  let bookPrice = getPrice(); // вынести в utils
 
   return (
     <Col

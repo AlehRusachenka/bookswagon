@@ -13,7 +13,11 @@ import styles from "./cartBlock.module.css";
 const CartBlock = () => {
   const [isCartMenuVisible, setIsCartMenuVisible] = useState();
   const items = useSelector((state) => state.cart.itemsInCart);
-  const totalPrice = calcTotalPrice(items);
+  let totalPrice = null;
+  if (items) {
+    totalPrice = calcTotalPrice(items);
+  }
+  // const totalPrice = calcTotalPrice(items);
   const navigate = useNavigate();
 
   const handleClick = useCallback(() => {
@@ -23,18 +27,22 @@ const CartBlock = () => {
 
   return (
     <>
-      <div className={styles.cart__block}>
-        <ItemsInCart quantity={items.length} />
-        <BiCartAlt
-          size={25}
-          className={styles.cartBlock__icon}
-          onClick={() => setIsCartMenuVisible(!isCartMenuVisible)}
-        />
-        {totalPrice > 0 ? (
-          <span className="cart-block__total-price">{totalPrice} $</span>
-        ) : null}
-        {isCartMenuVisible && <CartMenu items={items} onClick={handleClick} />}
-      </div>
+      {items && (
+        <div className={styles.cart__block}>
+          <ItemsInCart quantity={items.length} />
+          <BiCartAlt
+            size={25}
+            className={styles.cartBlock__icon}
+            onClick={() => setIsCartMenuVisible(!isCartMenuVisible)}
+          />
+          {totalPrice > 0 ? (
+            <span className="cart-block__total-price">{totalPrice} $</span>
+          ) : null}
+          {isCartMenuVisible && (
+            <CartMenu items={items} onClick={handleClick} />
+          )}
+        </div>
+      )}
     </>
   );
 };

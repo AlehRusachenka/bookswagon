@@ -19,7 +19,6 @@ const BookOrder = ({ book, bookPrice }) => {
 
   return (
     <div className={styles.book_order}>
-      {/* <span>{price()}$</span> */}
       <Button
         onClick={handleClick}
         type={isItemInCart ? "secondary" : "primary"}

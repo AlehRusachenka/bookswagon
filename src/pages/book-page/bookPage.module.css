@@ -65,3 +65,19 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.text {
+  width: 500px;
+}
+
+.header {
+  background-color: tomato;
+}
+
+.header > button {
+  background-color: tomato;
+}
+
+.collapsed {
+  background-color: tomato;
+}

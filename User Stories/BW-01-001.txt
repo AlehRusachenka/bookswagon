@@ -1,0 +1,14 @@
+Title: List of Books
+
+User Story:
+As a website visitor I want to see the list of books in one place to review what books this shop has.
+
+Acceptance criteria:
+Given that I have visited BooksWagon website when I open https://bookswagon.com then the list of books are shown immediately.
+
+To Do:
+1. Implement a functionality to show the list of books using https://gutendex.com/books/ API.
+
+Note: 
+1) The functionality should be implemented by using Redux.
+2) The list of books should be adaptive to mobile version.

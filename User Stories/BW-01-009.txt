@@ -1,0 +1,14 @@
+Title: My order page
+
+User Story:
+As a website user I want to navigate to order page to check out my current order.
+
+Acceptance criteria:
+Given that I have navigated to My Order page when I click on My Order link then the order page is opened.
+
+To Do:
+Create a new page "My orders". This should be avalable from the header as well as from the shopping cart. 
+This page reflects the products that have been added to the cart. 
+Add a possibility to remove a product from the order page.
+If there are no products in the shopping cart, the order page shows "There are no orders" message.
+

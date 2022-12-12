@@ -1,0 +1,13 @@
+Title: Search by titles
+
+User Story:
+As a website user I want to search by title to find a needed book.
+
+Acceptance criteria:
+Given that I have searched a book when fill in the search field by the name of the book then the searching book is appeared.
+
+To Do: 
+Implement a search functionality by the book title.
+
+Note:
+1) The spaces before and after entered text should be removed.
