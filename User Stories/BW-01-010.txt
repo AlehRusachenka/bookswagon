@@ -1,0 +1,11 @@
+Title: Book Rating
+
+User Story:
+As a website user I want to have a possibility to rate a book and see the rating of others user left to make a decision
+how interesting this book is.
+
+To Do:
+Add a 5 rating stars to the book page. The rating cab be changed by a user through a click.
+
+Note:
+The rating should be saved in localStorage.

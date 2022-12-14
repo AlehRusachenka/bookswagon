@@ -5,9 +5,9 @@ import { fetchBooks } from "../../services/books";
 import BookCarousel from "../../components/book-carousel/BookCarousel";
 import BooksList from "../../components/books-list/BooksList";
 import BooksSearch from "../../components/book-search/BooksSearch";
+import BookSubscribe from "../../components/book-subscribe/BookSubscribe";
 
 import styles from "./home.module.css";
-import BookSubscribe from "../../components/book-subscribe/BookSubscribe";
 
 const Home = () => {
   const dispatch = useDispatch();

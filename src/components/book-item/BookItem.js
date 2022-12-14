@@ -3,15 +3,12 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import BookCover from "../book-cover/BookCover";
 import BookOrder from "../book-order/BookOrder";
+import { getPrice } from "../utils";
 
 import styles from "./bookItem.module.css";
 
-const max = 100;
-const min = 10;
-
 const BookItem = ({ id, title, formats, book }) => {
-  let getPrice = () => Math.floor(Math.random() * (max - min + 1)) + min;
-  let bookPrice = getPrice(); // вынести в utils
+  let bookPrice = getPrice();
 
   return (
     <Col
