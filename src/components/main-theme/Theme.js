@@ -25,11 +25,7 @@ const Theme = () => {
       <div className="container">
         <div className={styles.switcher}>
           <label className={styles.toggle__switch}>
-            <input
-              type="checkbox"
-              onChange={handleChange}
-              // checked={}
-            ></input>
+            <input type="checkbox" onChange={handleChange}></input>
             <span className={styles.switch}></span>
           </label>
           <span className={styles.toggle__switchText}>Use Dark Theme</span>

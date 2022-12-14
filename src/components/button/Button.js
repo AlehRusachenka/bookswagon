@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-import styles from "./button.css";
+import "./button.css";
 
 const Button = ({ children, onClick, type }) => {
   const btnClass = classNames({

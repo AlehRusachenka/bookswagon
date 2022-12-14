@@ -14,13 +14,20 @@ const AccountPage = () => {
     <>
       <div className={styles.account}>
         <div className="container">
-          <h1>We are glad to see you in our BooksWagon shop!</h1>
-          <button onClick={() => dispatch(removeUser())}>Leave App</button>
+          <h1 className={styles.title}>
+            We are glad to see you in our Books Wagon shop!
+          </h1>
+          <button
+            className={styles.account__btn}
+            onClick={() => dispatch(removeUser())}
+          >
+            Leave Shop
+          </button>
         </div>
       </div>
     </>
   ) : (
-    <Navigate to="/bookswagon/account" />
+    <Navigate to="/bookswagon/login" />
   );
 };
 export default AccountPage;
